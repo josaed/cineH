@@ -168,6 +168,12 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\director.cs" />
+    <Compile Include="Models\estudio.cs" />
+    <Compile Include="Models\formato.cs" />
+    <Compile Include="Models\genero.cs" />
+    <Compile Include="Models\pelicula.cs" />
+    <Compile Include="Models\PeliculasImagenes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -283,6 +289,12 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
+    <Content Include="Views\pelicula\Create.cshtml" />
+    <Content Include="Views\pelicula\Delete.cshtml" />
+    <Content Include="Views\pelicula\Details.cshtml" />
+    <Content Include="Views\pelicula\Detalle.cshtml" />
+    <Content Include="Views\pelicula\Edit.cshtml" />
+    <Content Include="Views\pelicula\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

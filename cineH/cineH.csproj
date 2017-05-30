@@ -163,10 +163,12 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PeliculaController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="helper\GuardarImagen.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\director.cs" />
     <Compile Include="Models\estudio.cs" />

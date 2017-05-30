@@ -27,7 +27,6 @@ namespace cineH.Models
         public int id_director { get; set; }
         public director director { get; set; }
         public string elenco { get; set; }
-        public string Comentarios { get; set; }
         [Display(Name = "Fecha Estreno")]
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
@@ -36,7 +35,7 @@ namespace cineH.Models
         public DateTime fecha_estreno { get; set; }
         public string sinopsis { get; set; }
         public virtual ICollection<pelicula> Listapelicula { get; set; }
-        public List<PeliculasImagenes> AutomovilImagenes { get; set; }
+        public List<PeliculasImagenes> PeliculasImagenes { get; set; }
 
        
 

@@ -13,15 +13,17 @@
         <header>
             <div class="content-wrapper">
                 <div class="float-left">
-                    <img alt="" runat="server" class="auto-style1" src="../Images/logo.png" /></a>
+                    <img alt="" runat="server" class="auto-style1" src="../Images/logo.png" />
                 </div>
                 <div class="float-right">
                     <section id="login">
                         @Html.Partial("_LoginPartial")
                     </section>
                     <nav>
-                        <ul id="menu">
+                        <ul id="menu"> 
                             <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
+                           <li><a href="./pelicula/pelicula.aspx" >Pelicula</a></li>
+                          <li>@Html.ActionLink("pelicasas", "j", "Home")</li>
                             <li>@Html.ActionLink("Acerca de", "About", "Home")</li>
                             <li>@Html.ActionLink("Contacto", "Contact", "Home")</li>
                         </ul>

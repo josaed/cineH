@@ -61,3 +61,6 @@ c:\users\josea\documents\visual studio 2012\Projects\cineH\cineH\bin\es\WebMatri
 c:\users\josea\documents\visual studio 2012\Projects\cineH\cineH\obj\Debug\cineH.csprojResolveAssemblyReference.cache
 c:\users\josea\documents\visual studio 2012\Projects\cineH\cineH\obj\Debug\cineH.dll
 c:\users\josea\documents\visual studio 2012\Projects\cineH\cineH\obj\Debug\cineH.pdb
+C:\Users\CesarShadow\Documents\Visual Studio 2012\Projects\cineH\cineH\obj\Debug\cineH.csprojResolveAssemblyReference.cache
+C:\Users\CesarShadow\Documents\Visual Studio 2012\Projects\cineH\cineH\obj\Debug\cineH.dll
+C:\Users\CesarShadow\Documents\Visual Studio 2012\Projects\cineH\cineH\obj\Debug\cineH.pdb

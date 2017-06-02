@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="cineH.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <meta charset="utf-8" />
+   	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+</head>
+<body id="top">
+    <div class="inner">
+                 
+				<section id="banner" data-video="images/banner">
+		 
+                 
+               
+                    <header>
+                   		<center><h1>CineHome</h1>
+                            <p>
+                                <br />
+                                <br />
+                                <br />
+                            </p><img id="Img2" alt="" runat="server" class="auto-style1" src="../Images/logo.png" />
+                            <p>CineHome.org es un portal de noticias y buscador de peliculas 
+                               que publica artículos originales acerca de las principales películas, 
+                               incluyendo, criticas, trailers, spoilers y calendarios de estrenos. </p></center>
+						</header>
+						<a href="#main" class="menu">Menú</a>
+					</div>
+				</section>
+
+			
+
+			<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<h2>contactanos</h2>
+						<p>El contenido de esta pagina y actualizaciones puedes revisarlos en redes sociales, se el primero en informate sobre la cartelera los nuevos estrenos y sobre todo lo de tus peliculas favoritas.</p>
+
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a>Twitter</li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a>Facebook</li>
+							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span>Instagram</a></li>
+						</ul>
+                        <p class="copyright">© 2017 - CineHome</p>
+					</div>
+				</footer>
+    <center><p>Descargar películas. Ver películas online. Cine en casa gratis. Películas online y para 
+                            descargar en 1 link. Excelente calidad dvdrip y brrip (720p/1080p).</p></center>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+
+</html>
